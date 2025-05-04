@@ -1,30 +1,27 @@
-# Lightweight note app
+# CleaNote — Minimalist, Cross-Platform Note-Taking App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**CleaNote** is a distraction-free, tabbed note-taking web app built for people who just want to write. With a clean UI, Google login, and automatic saving directly to Google Drive, your notes are always accessible—on any device.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shekhar-chauhans-projects/v0-lightweight-note-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/fGCZejtunjz)
+---
 
-## Overview
+## Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- Google Login – Seamless authentication via Google
+- Google Drive Sync – Notes are saved directly to your Drive
+- Distraction-Free Writing – Minimalist UI with no menus or formatting clutter
+- Tabbed Notes – Open multiple notes in separate tabs
+- Side Menu – Access and switch between all your saved notes
+- Cross-Platform – Works on any device with Google Drive access
+- Auto-Save – Never lose a word; changes are saved instantly
+- Aesthetic UI – Clean, soft design that encourages focus
 
-## Deployment
+---
 
-Your project is live at:
+## Tech Stack
 
-**[https://vercel.com/shekhar-chauhans-projects/v0-lightweight-note-app](https://vercel.com/shekhar-chauhans-projects/v0-lightweight-note-app)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/fGCZejtunjz](https://v0.dev/chat/projects/fGCZejtunjz)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+| Layer       | Technology              |
+|------------|--------------------------|
+| Frontend    | React + Tailwind + Next.js |
+| Auth        | Google OAuth via Firebase Auth |
+| Storage     | Google Drive API        |
+| Hosting     | Netlify                 |
